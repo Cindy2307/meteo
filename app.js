@@ -10,8 +10,6 @@ lieu.addEventListener("keypress", (e) => {
         document.querySelector("#temperature").style.display = 'none';
         temperature.innerHTML = '';
         searchPlace(lieu.value);
-        document.querySelector("#input").style.height = "none";
-        document.querySelector("#input").style.display = "block";
-        document.querySelector("#input").style.marginTop = "10%";
+        document.querySelector("body").style.overflow = "auto";
     }
 });

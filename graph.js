@@ -34,7 +34,8 @@ function getGraph(x, y) {
                         beginAtZero: true
                     }
                 }]
-            }
+            },
+            maintainAspectRatio: false
         }
     });
 }

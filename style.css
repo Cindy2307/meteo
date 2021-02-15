@@ -37,14 +37,14 @@ body {
 
 #mapid {
     position: absolute;
-    top: 50vh;
+    top: 90vh;
     width: 50%;
     height: 50vh;
 }
 
 .chart-container {
     position: absolute;
-    top: 50vh;
+    top: 90vh;
     left: 50%;
     width: 50%;
     height: 50vh;
