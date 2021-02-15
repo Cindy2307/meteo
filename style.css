@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: url('img/defaut.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#input {
+    margin: auto;
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#input2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#temperature {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.671);
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.76);
+    width: fit-content;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#map {
+    height: 4vh;
+}
+
+#mapid {
+    position: absolute;
+    top: 50vh;
+    width: 50%;
+    height: 50vh;
+}
+
+.chart-container {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    width: 50%;
+    height: 50vh;
+}

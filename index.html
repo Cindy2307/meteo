@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="temperature">
+        <p id="temperature2"></p>
+    </div>
+    <div id="input">
+        <div id="input2">
+            <input type="text" id="map" list="liste" autofocus>
+            <datalist id="liste"></datalist>
+        </div>
+    </div>
+    <div id="mapid"></div>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="autocomplete.js"></script>
+    <script src="meteo5days.js"></script>
+    <script src="meteo.js"></script>
+    <script src="map.js"></script>
+    <script src="graph.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
