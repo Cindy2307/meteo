@@ -1,9 +1,11 @@
+let options;
+
 async function searchAlgoliaPlaces(event) {
     let response = "";
     const url = 'https://places-dsn.algolia.net/1/places/query';
     const responseJson = await fetch(url, {
         method: 'POST',
-        body: JSON.stringify({ query: event.currentTarget.value })     //transforme en chaine de caractère
+        body: JSON.stringify({ query: lieu.value })     //transforme en chaine de caractère
     })
         .catch((error) => {
             console.log(`Voici mon erreur : ${error}`);

@@ -13,3 +13,10 @@ lieu.addEventListener("keypress", (e) => {
         document.querySelector("body").style.overflow = "auto";
     }
 });
+lieu.addEventListener("change", (e) => {
+    e.preventDefault();
+    document.querySelector("#temperature").style.display = 'none';
+    temperature.innerHTML = '';
+    searchPlace(lieu.value);
+    document.querySelector("body").style.overflow = "auto";
+})
